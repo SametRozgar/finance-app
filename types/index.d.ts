@@ -149,7 +149,7 @@ declare interface BankInfoProps {
 }
 
 declare interface HeaderBoxProps {
-  type?: "title" | "greeting";
+  type?: "title" | "Tebrikler";
   title: string;
   subtext: string;
   user?: string;
@@ -272,10 +272,10 @@ declare interface getTransactionsProps {
 }
 
 declare interface CreateFundingSourceOptions {
-  customerId: string; // Dwolla Customer ID
-  fundingSourceName: string; // Dwolla Funding Source Name
-  plaidToken: string; // Plaid Account Processor Token
-  _links: object; // Dwolla On Demand Authorization Link
+  customerId: string; 
+  fundingSourceName: string; 
+  plaidToken: string; 
+  _links: object; 
 }
 
 declare interface CreateTransactionProps {
